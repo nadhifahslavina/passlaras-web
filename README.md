@@ -1,4 +1,4 @@
-# passlaras-web
+# passlaras-web (70%)
 
 ## Fitur di sini
 - Halaman utama dengan informasi kegiatan
