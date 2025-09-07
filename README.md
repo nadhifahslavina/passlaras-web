@@ -1,7 +1,5 @@
 # passlaras-web
 
-Website untuk Pramuka Passlaras SMPN 84 [Insyaallah].
-
 ## Fitur di sini
 - Halaman utama dengan informasi kegiatan
 - Profil Passlara
