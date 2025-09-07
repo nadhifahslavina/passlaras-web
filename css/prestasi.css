@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    width: 3rem;
+}
+
+.custom-navbar{
+    background-color: #F7F7F7;
+}
+
+.container ul{
+    gap: 2rem;
+}
+
+.container ul li{
+    color: #232323;
+    font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    width: 10%;
+}
+
+#isi{
+    background: #232323;
+}
+
+#isi .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #FFB22C;
+}
+
+#isi h1{
+    font-family: 'Oswald';
+    font-size: 5rem;
+}
