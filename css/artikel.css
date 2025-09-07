@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    width: 3rem;
+}
+
+.custom-navbar{
+    background-color: #F7F7F7;
+}
+
+.container ul{
+    gap: 2rem;
+}
+
+.container ul li{
+    color: #232323;
+    font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    width: 10%;
+}
+
+#search{
+    padding: 5rem;
+}
+
+#input-group input{
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #232323;
+}
+
+#cari{
+    border-radius: 0 8px 8px 0;
+    background: #FFB22C;
+}
+
+#filter{
+    border-radius: 8px;
+    background: #FFB22C;
+}
+
+@media(max-width: 576px){
+    #search{
+        padding: 1rem;
+    }
+    #search h2{
+        font-size: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+  #search .form-control {
+    font-size: 0.5rem;
+    padding: 6px 10px;
+  }
+  #search .btn {
+    font-size: 0.5rem;
+    padding: 6px 8px;
+  }
+}
+
+.card img{
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+@media(max-width:576px){
+    #card-artikel{
+        padding: 1rem;
+    }
+    .card-body{
+        font-size: 0.5rem;
+        padding: 0.5rem !important;
+    }
+}
+
+#card-artikel .card{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#card-artikel .card:hover{
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+footer{
+    background: url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 3rem;
+}
+
+footer h1{
+    font-family: 'Oswald';
+    color: #FFB22C;
+}
+
+footer h6{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.link a{
+    color: #F7F7F7;
+}
+
+.medsos{
+    padding: 1rem 0 1rem 0;
+}
+
+small{
+    color: #F7F7F7;
+}
+
+@media(max-width: 576px){
+    footer{
+        padding: 1rem;
+    }
+    footer .container h6{
+        font-size: 0.8rem;
+    }
+}
