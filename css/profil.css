@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header img{
+    width: 3rem;
+}
+
+.custom-navbar{
+    background-color: #F7F7F7;
+}
+
+.container ul{
+    gap: 2rem;
+}
+
+.container ul li{
+    color: #232323;
+    font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    width: 10%;
+}
+
+@media(max-width: 576px){
+    .carousel{
+        margin-top: 40px;
+    }
+}
+
+#profile{
+    background-color: #F7F7F7;
+    padding: 5rem;
+    margin-bottom: -5rem;
+    z-index: 10;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    position: relative; /*z-index ga bakal jalan kalo ga ada position, isinya apa aja dah selain static*/
+}
+
+#profile img{
+    width: 90%;
+    border-radius: 18px;
+}
+
+#profile p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media(max-width: 576px){
+    #profile{
+        padding: 2rem;
+        width: 100%;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    #profile img{
+        border-radius: 8px;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #profile p{
+        font-size: 0.8rem;
+    }
+}
+
+#slogan, #motto{
+    background-color: #FFB22C;
+    padding: 2rem;
+}
+
+#motto h1{
+    font-family: 'Oswald';
+}
+
+#motto p{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+#motto .container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+#visimisi{
+    background: #232323;
+    padding: 2rem;
+}
+
+#visimisi .container{
+    display: flex;
+    gap: 2rem;
+}
+
+.visi, .misi{
+    width: 50%;
+    background: #F7F7F7;
+    border-radius: 8px;
+    padding: 3rem;
+}
+
+@media(max-width: 576px){
+    #visimisi .container{
+        display: block;
+    }
+
+    .visi, .misi{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .visi{
+        margin-bottom: 2rem;
+    }
+    .visi p{
+        font-size: 0.5rem;
+    }
+    .misi li{
+        font-size: 0.5rem;
+    }
+}
+
+#slogan{
+    padding-top: 3rem;
+    height: 40vh;
+}
+
+#slogan h1{
+    font-family: 'Oswald';
+}
+
+#slogan p{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+@media(max-width: 576px){
+    #slogan{
+        height: 60vh;
+    }
+}
+
+#member{
+    background-color: #F7F7F7;
+    padding: 5rem;
+    margin-top: -5rem;
+    z-index: 10;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    position: relative; /*z-index ga bakal jalan kalo ga ada position, isinya apa aja dah selain static*/
+}
+
+@media(max-width: 576px){
+    #member{
+        padding: 2rem !important;
+        border-top-left-radius: 1rem !important;
+        border-top-right-radius: 1rem !important;
+    }
+    #member .card-text{
+        font-size: 0.5rem;
+    }
+    #member h4{
+        font-size: 0.8rem;
+    }
+}
+
+footer{
+    background: url('../img/footer.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    padding: 3rem;
+}
+
+footer h1{
+    font-family: 'Oswald';
+    color: #FFB22C;
+}
+
+footer h6{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.link a{
+    color: #F7F7F7;
+}
+
+.medsos{
+    padding: 1rem 0 1rem 0;
+}
+
+small{
+    color: #F7F7F7;
+}
+
+@media(max-width: 576px){
+    footer{
+        padding: 1rem;
+    }
+    footer .container h6{
+        font-size: 0.8rem;
+    }
+}
