@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <link rel="stylesheet" href="assets/css/style.css?v=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google font Robotoo dan Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top shadow-sm custom-navbar">
+            <div class="container">
+                <img src="assets/img/LOGO_PASSLARAS.png" alt="Logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="border: none;">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.php">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="views/profil.html">Profil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="views/artikel.html">Artikel</a></li>
+                        <li class="nav-item"><a class="nav-link" href="views/prestasi.html">Prestasi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="views/galeri.html">Galeri</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero d-flex align-items-center text-center custom-hero">
+        <div class="welcome">
+            <img src="assets/img/Beranda.png" alt="Gambar Haeder">
+            <div class="welcome-text">
+                <h1 class="display-4 fw-bold">Welcome to <span class="text-warning">PASSLARAS</span></h1>
+                <p class="lead">- One Team, One Spirit, One Goal -</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="artikel" class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>Artikel PASSLARAS</h2>
+                <a href="views/artikel.html" class="text-decoration-none" style="color: #00386F;">Lihat Semua Artikel ></a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between" id="card-artikel">
+                <article class="col mb-3">
+                    <img src="assets/img/g2.JPG" alt="">
+                    <h6>Tips & Trik lolos Pramuka Garuda</h6>
+                </article>
+                <article class="col mb-3">
+                    <img src="assets/img/g2.JPG" alt="">
+                    <h6>Menggelegar! PASSLARAS kumpulkan puluhan regu di LENTERA 2025</h6>
+                </article>
+                <article class="col mb-3">
+                    <img src="assets/img/g2.JPG" alt="">
+                    <h6>Tips & Trik lolos Pramuka Garuda</h6>
+                </article>
+                <article class="col mb-3">
+                    <img src="assets/img/g2.JPG" alt="">
+                    <h6>Tips & Trik lolos Pramuka Garuda</h6>
+                </article>
+                <article class="col mb-3">
+                    <img src="assets/img/g2.JPG" alt="">
+                    <h6>Tips & Trik lolos Pramuka Garuda</h6>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="slogan">
+        <div class="container">
+            <h1 class="text-center text-md-start">"BE THE BEST, DO THE BEST, BEST TEAM NEVER REST"</h1>
+        </div>
+    </section>
+
+    <section id="profile">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between">
+                <div class="col">
+                    <img src="assets/img/jaket.jpg" alt="">
+                </div>
+                <div class="col">
+                    <p>PASSLARAS adalah singkatan dari Pasukan Syailendra dan Dewi Sumitra, satuan Pramuka SMP Negeri 84 Jakarta yang menjadi wadah bagi siswa untuk mengasah kepemimpinan, kedisiplinan, dan kebersamaan.</p>
+                    <p>Dengan motto “One Team, One Spirit, One Goal” yang berarti "Satu Tim, Satu Semangat dan Satu Tujuan"PASSLARAS aktif dalam berbagai kegiatan seperti latihan rutin, perkemahan, dan lomba, serta berkomitmen membentuk generasi muda yang tangguh, kreatif, dan siap sedia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="regu">
+        <div class="container text-center">
+            <div class="row row-cols-7 g-2" id="card-regu">
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="500">
+                    <img src="assets/img/DQ.jpg" alt="">
+                    <p>Dolphin<br>Quest</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="600">
+                    <img src="assets/img/DQ.jpg" alt="">
+                    <p>Victoria<br>Amazonica</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="700">
+                    <img src="assets/img/BS.jpeg" alt="">
+                    <p>Black<br>Shark</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800">
+                    <img src="assets/img/SJ.jpeg" alt="">
+                    <p>Shark<br>Junior</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="900">
+                    <img src="assets/img/MA.jpeg" alt="">
+                    <p>Michelia<br>Alba</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+                    <img src="assets/img/ES.jpeg" alt="">
+                    <p>Eucheuma<br>Spinosum</p>
+                </div>
+                <div class="col-4 col-sm" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+                    <img src="assets/img/MP.jpeg" alt="">
+                    <p>Mimosa<br>Pudica</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri">
+        <div class="container text-center g-3">
+            <div class="row g-3 mb-3">
+                <div class="col-sm-4">
+                    <div class="card text-white">
+                        <img src="assets/img/yel.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center overlay-text">
+                            <p>Latihan Menjelang Lomba (1 Sep 2025)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="card text-white">
+                        <img src="assets/img/upacara.JPG" class="card-img" alt="">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center overlay-text">
+                            <p>Pelantikan Dewan Galang (9 Sep 2025)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 mb-3">
+                <div class="col-sm-8">
+                    <div class="card text-white">
+                        <img src="assets/img/piala.jpeg" class="card-img" alt="">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center overlay-text">
+                            <p>Piala LENTERA 2025 (18 Mei 2025)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white">
+                        <img src="assets/img/lomba.JPG" class="card-img" alt="">
+                        <div class="card-img-overlay d-flex align-items-end justify-content-center overlay-text">
+                            <p data-aos="zoom-in">Lomba di SMPN 256 Jakarta (1 Sep 2023)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-end">
+                <a href="views/galeri.html" class="text-decoration-none" style="color: #f7f7f7">Lihat Semua Gambar ></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between">
+                <div class="col" id="map"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.110743351309!2d106.90854067452975!3d-6.115791359973741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1ff58deeaf15%3A0xeab60226936723ab!2sSMP%20Negeri%2084%20Jakarta%20Utara!5e0!3m2!1sid!2sid!4v1756141963058!5m2!1sid!2sid"
+                    width="100%"
+                    height="100%"
+                    style="border: 0; border-radius: 18px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="col">
+                    <form action="kirim_email.php" method="post">
+                        <input type="text" class="form-control" placeholder="Nama" id="nama" name="nama" required>
+                        <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+                        <input type="text" class="form-control" placeholder="Subjek" id="subjek" name="subjek" required>
+                        <textarea class="form-control" placeholder="Pesan" name="pesan" id="pesan" rows="4" required></textarea>
+                        <button type="submit" class="btn w-100">KIRIM</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+
+        <div class="container">
+            <h1>PASSLARAS 84</h1>
+            <h6>Jl. Semangka No. 1, Lagoa, Koja, Jakarta Utara</h6>
+            <div class="link ">
+                <h6>Email: <a href="passlaras84@gmail.com">passlaras84@gmail.com</a></h6>
+                <h6>Phone: <a href="passlaras84@gmail.com">085694695866</a></h6>
+                <h6><a href="auth/login.php">Login Admin</a></h6>
+            </div>
+            <div class="medsos">
+                <a href="https://www.instagram.com/passlaras84?igsh=eXQ2aXI3OWlkdTlx" class="btn btn-outline-light btn-sm rounded-circle me-2">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://youtube.com/@passlaras84?si=oNU22xZmhcDz0-bS" class="btn btn-outline-light btn-sm rounded-circle me-2">
+                    <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com/@passlaras84?_t=ZS-8zCcBpje8zy&_r=1" class="btn btn-outline-light btn-sm rounded-circle">
+                    <i class="bi bi-tiktok"></i>
+                </a>
+            </div>
+            <div style="border-top: 2px solid #f7f7f7;"></div>
+
+            <div class="mt-3 text-center">
+                <small>Copyright © 2025. All Rights Reserved<br>
+                Development by <span class="text-warning">Nadhifah Slavina</span></small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
